@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import {logo, menu, close, logoR } from '../assets';
+import { menu, close, logoR } from '../assets';
 
 
 const Navbar = () => {
@@ -19,10 +19,11 @@ const Navbar = () => {
         onClick={() => {setActive(""); 
         window.scrollTo(0,0)}}
         >
-          <img src={logoR} alt="logo" className='w-11 h-11 object-contain' />
-        <p className='text-white text-[18px] font-bold cursor-pointer'> Rickie Dixon 
-        <span className="sm:block hidden"> | Software Developer</span>
-        </p>
+          <img src={logoR} alt="logo" className='w-9 h-9 object-contain' />
+        <p className='text-white text-[18px] font-bold cursor-pointer flex'> 
+        Rickie Dixon &nbsp;<span 
+        className="sm:block hidden"> | Software Developer</
+        span></p>
         </Link>
         <ul className='"list-none hidden sm:flex flex-row gap-10'>
         {navLinks.map((link) => (
