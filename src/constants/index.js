@@ -36,6 +36,10 @@ import {
       title: "Work",
     },
     {
+      id:"projects",
+      title: "Projects"
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -160,7 +164,7 @@ import {
       company_name: "Coding Dojo Bootcamp",
       icon: dojo,
       iconBg: "#202020",
-      date: "Feb 2020 - Sept 2020",
+      date: "Feb 2021 - Sept 2021",
       points: [
         "Developing and maintaining web applications using Python, MERN, Java and other related technologies.",
         "Collaborating with cohorts and instructor via remote zoom meetings, discord",
