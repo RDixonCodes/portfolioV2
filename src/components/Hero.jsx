@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -29,7 +30,7 @@ const Hero = () => {
               border-secondary flex justify-center items-start p-2'>
                 <motion.dev
                 animate={{
-                  y: [0, 24,0]
+                  y: [0, 24, 0]
                 }}
                 transition={{
                   duration: 1.5,

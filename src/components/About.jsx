@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unknown-property */
 import { Tilt }  from 'react-tilt';
 import { motion } from 'framer-motion';
 
@@ -7,6 +8,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
+// eslint-disable-next-line react-refresh/only-export-components, react/prop-types
 const ServiceCard = ({ index, title, icon }) => {
   return(
     <Tilt className='xs:w-[250px] w-full'>
@@ -21,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => {
           speed: 450,
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12
-        min-h-[280px] flex justify-evenly items-center flex-col'
+        min-h-[280px] flex justify-evenly items-center flex-col shadow-lg shadow-[#7A26C2]'
         >
           <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
@@ -31,6 +33,7 @@ const ServiceCard = ({ index, title, icon }) => {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 const About = () => {
   return (
     <>
@@ -56,4 +59,5 @@ const About = () => {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(About, 'about')

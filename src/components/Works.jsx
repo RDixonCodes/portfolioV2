@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -49,7 +50,9 @@ const ProjectCard = ({name, description, tags, image, source_code_link, index}) 
         <div className="mt04 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p key={tag.name}
-            className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
+            className={`text-[14px] ${tag.color}`}
+            >
+              #{tag.name}</p>
           ))}
         </div>
       </Tilt>
@@ -57,6 +60,7 @@ const ProjectCard = ({name, description, tags, image, source_code_link, index}) 
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Works = () => {
   return (
     //Use fragment wrapper when using SectionWrapper

@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
-import React, {Suspense} from 'react';
+import {Suspense} from 'react';
 import { Canvas } from '@react-three/fiber';
 import {
   Decal,
@@ -23,7 +24,7 @@ const Ball = (props) => {
       <meshStandardMaterial 
       color='#fff8eb'
       polygonOffset
-      polygonOffsetFactor={-5}
+      polygonOffsetFactor={-10}
       floatShading/>
       <Decal 
       position={[0, 0, 1]}

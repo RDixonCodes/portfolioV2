@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { 
   VerticalTimeline, 
   VerticalTimelineElement
@@ -30,6 +31,7 @@ icon={
   <div>
     <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
     <p className="text-secondary text-[16px] font-semibold" 
+    // eslint-disable-next-line react/prop-types
     style={{ margin: 0}}>{experience.company_name}</p>
   </div>
   <ul className="mt-5 list-disc ml-5 space-y-2">
@@ -42,6 +44,7 @@ icon={
   </VerticalTimelineElement>)
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Experience = () => {
   return (
     <>
@@ -63,4 +66,5 @@ const Experience = () => {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(Experience, 'work');

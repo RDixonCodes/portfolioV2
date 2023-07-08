@@ -4,26 +4,26 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    java,
+    python,
+    mysql,
     html,
     css,
     reactjs,
     redux,
     tailwind,
-    nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
+    bull,
+    bowling,
     dojo,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
+    // tesla,
+    crown,
+    arch,
+    // carrent,
+    // jobit,
     tripguide,
     threejs,
+    building,
   } from "../assets";
   
   export const navLinks = [
@@ -51,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -59,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Architecture Enthusiast",
       icon: creator,
     },
   ];
@@ -78,85 +78,74 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Java",
+      icon: java,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "MySQL",
+      icon: mysql,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Carpenter",
+      company_name: "MESH Architecture & Fabrication",
+      icon: building,
+      iconBg: "#F3F3F3",
+      date: "May 2013 - Aug 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Read blueprints to compile cut list and check for adequate material inventory.",
+        "Assembled and installed custom cabinetry and furniture.",
+        "Responsibly delivered finished materials on schedule.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Bartender",
+      company_name: "Garage Bowl & Billiards",
+      icon: bowling,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sept 2016 - Feb 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Handled bar with attention to detail for 150+ customers per night.",
+        "Maintained large catered event hosting of 50+ person groups.",
+        "Reached 98% positive customer satisfaction and received positive feedback from managers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Bartender",
+      company_name: "The Matador",
+      icon: bull,
+      iconBg: "black",
+      date: "March 2021 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Increased bar sales 20% by upselling key menu  items.",
+        "Utilize multitasking skills to provide  bar service and customer care to 100+ customers per day.",
+        "Trained new  staff members ensuring adherence to established guidelines.",
       ],
     },
     {
@@ -174,57 +163,57 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     testimonial:
+  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //     name: "Sara Lee",
+  //     designation: "CFO",
+  //     company: "Acme Co",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //     name: "Chris Brown",
+  //     designation: "COO",
+  //     company: "DEF Corp",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //     name: "Lisa Wang",
+  //     designation: "CTO",
+  //     company: "456 Enterprises",
+  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  //   },
+  // ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CRWN Clothing",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Online Clothing app created using React. Leverages Firebase cloude firestore for data storage. Google sign in integration for facilitation of user information.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "scss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: crown,
+      source_code_link: "https://github.com/RDixonCodes/crwn-clothing",
     },
     {
-      name: "Job IT",
+      name: "ArchiNet",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -241,8 +230,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: arch,
+      source_code_link: "https://github.com/RDixonCodes/ArchiNet",
     },
     {
       name: "Trip Guide",
@@ -267,4 +256,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
