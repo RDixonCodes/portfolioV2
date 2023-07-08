@@ -29,16 +29,11 @@ import bull from "./company/bull.png";
 import home from "./company/home.png";
 import building from "./company/buildings.png";
 import dojo from "./company/dojo.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import bowling from "./company/bowling.png";
 
 import arch from "./tech/arch2.jpeg";
-import crown from "./crwnclthng.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import crown from "./clothing.jpeg";
+import trail from "./hikingPic.jpeg"
 
 export {
   logo,
@@ -71,12 +66,7 @@ export {
   building,
   bowling,
   dojo,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   crown,
   arch,
-  jobit,
-  tripguide,
+  trail
 };

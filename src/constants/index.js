@@ -16,12 +16,9 @@ import {
     bull,
     bowling,
     dojo,
-    // tesla,
+    trail,
     crown,
     arch,
-    // carrent,
-    // jobit,
-    tripguide,
     threejs,
     building,
   } from "../assets";
@@ -66,18 +63,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "Python",
       icon: python,
     },
@@ -88,6 +73,18 @@ import {
     {
       name: "Java",
       icon: java,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
     },
     {
       name: "Tailwind CSS",
@@ -215,18 +212,18 @@ import {
     {
       name: "ArchiNet",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "ArchiNet is an app centered around the love of all things architecture. Users can share their favorite projects across multiple disciplines.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "material-ui",
           color: "pink-text-gradient",
         },
       ],
@@ -234,16 +231,16 @@ import {
       source_code_link: "https://github.com/RDixonCodes/ArchiNet",
     },
     {
-      name: "Trip Guide",
+      name: "Trip Buddy",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A place where adventure seekers come together to enjoy the great outdoors. Users can create and join trips posted by others. Step into the wild!",
       tags: [
         {
-          name: "nextjs",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "spring",
           color: "green-text-gradient",
         },
         {
@@ -251,8 +248,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: trail,
+      source_code_link: "https://github.com/RDixonCodes/trailBuddy",
     },
   ];
   
