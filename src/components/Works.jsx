@@ -70,7 +70,7 @@ const Works = () => {
       My work
       </p>
       <h2 className={styles.sectionHeadText}>
-        Projects
+        Projects.
         </h2>
     </motion.div>
     <div className="w-full flex">
