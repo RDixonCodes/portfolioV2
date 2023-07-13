@@ -1,2 +1,3 @@
-# portfolioV2
-(UNDER CONSTRUCTION)
+Portfolio
+
+https://www.rickiedixon.com/
