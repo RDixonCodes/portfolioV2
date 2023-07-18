@@ -33,7 +33,7 @@ import bowling from "./company/bowling.png";
 
 import arch from "./tech/arch2.jpeg";
 import crown from "./clothing.jpeg";
-import trail from "./hikingPic.jpeg"
+import travel from "./travel.jpeg";
 
 export {
   logo,
@@ -68,5 +68,5 @@ export {
   dojo,
   crown,
   arch,
-  trail
+  travel
 };

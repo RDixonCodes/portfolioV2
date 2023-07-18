@@ -16,7 +16,7 @@ import {
     bull,
     bowling,
     dojo,
-    trail,
+    travel,
     crown,
     arch,
     threejs,
@@ -233,23 +233,23 @@ import {
     {
       name: "Trip Buddy",
       description:
-        "A place where adventure seekers come together to enjoy the great outdoors. Users can create and join trips posted by others. Step into the wild!",
+        "A comprehensive travel platform that allows users to find restaurants, hotels and attractions for popular destinations around the world.",
       tags: [
         {
-          name: "java",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "spring",
+          name: "rapidAPI",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "material-ui",
           color: "pink-text-gradient",
         },
       ],
-      image: trail,
-      source_code_link: "https://github.com/RDixonCodes/trailBuddy",
+      image: travel,
+      source_code_link: "https://github.com/RDixonCodes/travelApp",
     },
   ];
   
