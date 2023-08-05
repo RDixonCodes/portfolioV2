@@ -13,14 +13,15 @@ import {
     redux,
     tailwind,
     mongodb,
-    bull,
-    bowling,
+    // bull,
+    // bowling,
+    newHome,
     dojo,
     travel,
     crown,
-    arch,
+    // arch,
     threejs,
-    building,
+    // building,
   } from "../assets";
   
   export const navLinks = [
@@ -109,42 +110,42 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Carpenter",
-      company_name: "MESH Architecture & Fabrication",
-      icon: building,
-      iconBg: "#F3F3F3",
-      date: "May 2013 - Aug 2016",
-      points: [
-        "Read blueprints to compile cut list and check for adequate material inventory.",
-        "Assembled and installed custom cabinetry and furniture.",
-        "Responsibly delivered finished materials on schedule.",
-      ],
-    },
-    {
-      title: "Bartender",
-      company_name: "Garage Bowl & Billiards",
-      icon: bowling,
-      iconBg: "#E6DEDD",
-      date: "Sept 2016 - Feb 2020",
-      points: [
-        "Handled bar with attention to detail for 150+ customers per night.",
-        "Maintained large catered event hosting of 50+ person groups.",
-        "Reached 98% positive customer satisfaction and received positive feedback from managers.",
-      ],
-    },
-    {
-      title: "Bartender",
-      company_name: "The Matador",
-      icon: bull,
-      iconBg: "black",
-      date: "March 2021 - present",
-      points: [
-        "Increased bar sales 20% by upselling key menu  items.",
-        "Utilize multitasking skills to provide  bar service and customer care to 100+ customers per day.",
-        "Trained new  staff members ensuring adherence to established guidelines.",
-      ],
-    },
+    // {
+    //   title: "Carpenter",
+    //   company_name: "MESH Architecture & Fabrication",
+    //   icon: building,
+    //   iconBg: "#F3F3F3",
+    //   date: "May 2013 - Aug 2016",
+    //   points: [
+    //     "Read blueprints to compile cut list and check for adequate material inventory.",
+    //     "Assembled and installed custom cabinetry and furniture.",
+    //     "Responsibly delivered finished materials on schedule.",
+    //   ],
+    // },
+    // {
+    //   title: "Bartender",
+    //   company_name: "Garage Bowl & Billiards",
+    //   icon: bowling,
+    //   iconBg: "#E6DEDD",
+    //   date: "Sept 2016 - Feb 2020",
+    //   points: [
+    //     "Handled bar with attention to detail for 150+ customers per night.",
+    //     "Maintained large catered event hosting of 50+ person groups.",
+    //     "Reached 98% positive customer satisfaction and received positive feedback from managers.",
+    //   ],
+    // },
+    // {
+    //   title: "Bartender",
+    //   company_name: "The Matador",
+    //   icon: bull,
+    //   iconBg: "black",
+    //   date: "March 2021 - present",
+    //   points: [
+    //     "Increased bar sales 20% by upselling key menu  items.",
+    //     "Utilize multitasking skills to provide  bar service and customer care to 100+ customers per day.",
+    //     "Trained new  staff members ensuring adherence to established guidelines.",
+    //   ],
+    // },
     {
       title: "Student",
       company_name: "Coding Dojo Bootcamp",
@@ -210,25 +211,25 @@ import {
       source_code_link: "https://github.com/RDixonCodes/crwn-clothing",
     },
     {
-      name: "ArchiNet",
+      name: "Space Finder",
       description:
-        "ArchiNet is an app centered around the love of all things architecture. Users can share their favorite projects across multiple disciplines.",
+        "A streamlined way to find your 'space'. Web application that enables users to search for homes, view homes for sale, and locate available rentals ",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "express",
+          name: "rapidapi",
           color: "green-text-gradient",
         },
         {
-          name: "material-ui",
+          name: "chakra-ui",
           color: "pink-text-gradient",
         },
       ],
-      image: arch,
-      source_code_link: "https://github.com/RDixonCodes/ArchiNet",
+      image: newHome,
+      source_code_link: "https://github.com/RDixonCodes/homeFinderApp",
     },
     {
       name: "Trip Buddy",
@@ -240,7 +241,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "rapidAPI",
+          name: "google-maps",
           color: "green-text-gradient",
         },
         {
