@@ -1,5 +1,4 @@
-** PORTFOLIO **
-This is my personal portfolio website. 
+Welcome to my personal portfolio website. 
 - Built using React, TailwindCSS and Three.JS
 - TailwindCSS us utilized for its ease of implementation and to create a responsive browsing experience.
 - The Three.JS JavaScript library allows developers to create 3D graphics for the web and helps to create stunning and interactive web applications.
