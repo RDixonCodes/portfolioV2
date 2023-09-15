@@ -245,7 +245,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "material-ui",
+          name: "materials-ui",
           color: "pink-text-gradient",
         },
       ],
