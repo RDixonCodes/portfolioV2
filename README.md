@@ -1,4 +1,4 @@
-Welcome to my portfolio [website](https://www.rickiedixon.com/). 
+Portfolio [site](https://www.rickiedixon.com/) 
 - Built using React, TailwindCSS and Three.JS
 - TailwindCSS is utilized for its ease of implementation and to create a responsive browsing experience.
 - The Three.JS JavaScript library allows for creative 3D graphics for the web and helps to create stunning and interactive web applications.
