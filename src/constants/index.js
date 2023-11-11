@@ -30,12 +30,12 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
-    },
-    {
       id:"projects",
       title: "Projects"
+    },
+    {
+      id: "work",
+      title: "Work",
     },
     {
       id: "contact",
