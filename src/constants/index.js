@@ -18,7 +18,7 @@ import {
     newHome,
     dojo,
     travel,
-    crown,
+    sparx,
     // arch,
     threejs,
     // building,
@@ -190,30 +190,30 @@ import {
   
   const projects = [
     {
-      name: "CRWN Clothing",
+      name: "SPARX Market",
       description:
-        "Online Clothing app created using React. Leverages Firebase cloude firestore for data storage. Google sign in integration for facilitation of user information.",
+        "An online marketplace using Next.js that seamlessly integrates with Sanity.io for efficient data storage. Stripe payment for a secure and smooth payment process.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
+          name: "sanity.io",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: crown,
-      source_code_link: "https://github.com/RDixonCodes/crwn-clothing",
+      image: sparx,
+      source_code_link: "https://github.com/RDixonCodes/ecommerce",
     },
     {
       name: "Space Finder",
       description:
-        "A streamlined way to find your 'space'. Web application that enables users to search for homes, view homes for sale, and locate available rentals ",
+        "Efficiently discover your 'space' with a streamlined web app. Search for homes, view listings for sale, and find available rentals effortlessly. ",
       tags: [
         {
           name: "nextjs",
@@ -234,7 +234,7 @@ import {
     {
       name: "Trip Buddy",
       description:
-        "A comprehensive travel platform that allows users to find restaurants, hotels and attractions for popular destinations around the world.",
+        "Discover everything you need for global travel on our comprehensive platform – find restaurants, hotels, and attractions in popular destinations worldwide.",
       tags: [
         {
           name: "react",

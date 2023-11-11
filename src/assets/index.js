@@ -26,14 +26,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-// import bull from "./company/bull.png";
+
 import home from "./company/home.png";
-// import building from "./company/buildings.png";
 import dojo from "./company/dojo.png";
-// import bowling from "./company/bowling.png";
 
 import arch from "./tech/arch2.jpeg";
-import crown from "./clothing.jpeg";
+import sparx from "./sparx.jpeg";
 import travel from "./travel.jpeg";
 
 export {
@@ -62,13 +60,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  // bull,
   home,
-  // building,
-  // bowling,
   newHome,
   dojo,
-  crown,
+  sparx,
   arch,
   travel
 };
